@@ -3,5 +3,4 @@
   - yaml
 :hierarchy:
   - "%{clientcert}"
-  - "%{environment}"
-  - global
+  - common
