@@ -5,3 +5,11 @@ classes:
 ntp::servers:
   - 0.us.pool.ntp.org
   - 1.us.pool.ntp.org
+
+profike::base::packages:
+  - zsh
+  - vim
+  - git
+  - curl
+  - wget 
+  - tmux 
