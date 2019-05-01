@@ -1,5 +1,5 @@
 class profile::base (
-  packages = [],
+  $packages = [],
 ){
   class { '::ntp': }
 
