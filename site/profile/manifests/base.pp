@@ -1,10 +1,11 @@
 class profile::base (
-  package = [],
+  packages = [],
 ){
   class { '::ntp': }
+
   class { '::docker': }
 
-  package {$packages:
+  package { $packages:
     ensure => latest
   }
 }
